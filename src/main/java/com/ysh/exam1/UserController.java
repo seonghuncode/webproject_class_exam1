@@ -11,7 +11,7 @@ public class UserController {
     @RequestMapping("")
     @ResponseBody
     public String users(){
-        return "유저 여러명";
+        return "유저 여러명 입니다 변경";
     }
     
     @RequestMapping("1")
